@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Titulo de la pagina</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+        
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"  crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/estilo1.css">    
+    </head>
+    
+    <body> 
+        <!-- barra de menú inicio -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid  d-flex justify-content-between">
+                <a class="navbar-brand" href="https://www.buenosaires.gob.ar/educacion/codo-codo">Codo a Codo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Desactivado</a>
+                        </li>
+                    </ul>
+                    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+                </div>
+                
+            </div>
+        </nav>
+        <!-- fin de barra de menú -->
+
+        <!-- Inicio de cards -->
+
+        <div class="card-group">
+            <div class="card">
+                <img src="./images/html.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">título 1</h5>
+                    <p class="card-text">Contenido de  Card</p>
+                    <p class="card-text"><small class="text-muted">Última actualización</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/css.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">título 2</h5>
+                    <p class="card-text">Contenido de  Card</p>
+                    <p class="card-text"><small class="text-muted">Última actualización</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/boostrap.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">título 3</h5>
+                    <p class="card-text">Contenido de  Card</p>
+                    <p class="card-text"><small class="text-muted">Última actualización</small></p>
+                </div>
+            </div>
+        </div>
+        <!-- fin de cards -->
+
+        <!-- inicio de carga de datos  -->
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"><small class="text-muted">Nunca comparta su email.</small></div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Verificar</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        <!-- fin carga de datos -->
+    </body>
+</html>
